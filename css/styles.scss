@@ -1,0 +1,41 @@
+.main {
+    display: flex;
+
+    &-left {
+        
+        width: 151px;
+        border-right: 10px solid #ce1124;
+    }
+
+    &-right {
+
+    }
+}
+
+.box-with-letter {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+
+    &-small {
+        font-size: small;
+    }
+
+    &-medium {
+        font-size: medium;
+    }
+
+    &-large {
+        font-size: x-large;
+    }
+    
+}
+
+.boxes {
+    display: flex;
+}

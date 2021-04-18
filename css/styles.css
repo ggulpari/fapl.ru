@@ -1,0 +1,46 @@
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-left {
+  width: 151px;
+  border-right: 10px solid #ce1124;
+}
+
+.box-with-letter {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 5px;
+}
+
+.box-with-letter-small {
+  font-size: small;
+}
+
+.box-with-letter-medium {
+  font-size: medium;
+}
+
+.box-with-letter-large {
+  font-size: x-large;
+}
+
+.boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=styles.css.map */
