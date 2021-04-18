@@ -2,9 +2,9 @@
     display: flex;
 
     &-left {
-        
         width: 151px;
         border-right: 10px solid #ce1124;
+        border-bottom: 10px solid #ce1124;
     }
 
     &-right {
@@ -21,6 +21,7 @@
     justify-content: center;
     align-items: center;
     margin-right: 5px;
+    
 
     &-small {
         font-size: small;
@@ -38,4 +39,7 @@
 
 .boxes {
     display: flex;
+    margin-top: 125px;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
